@@ -131,6 +131,24 @@ export const DATA = {
         "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
     },
   ],
+  education: [
+    {
+      school: "County is BW & ZW",
+      href: "https://local.com/Botswana",
+      degree: "s3, s4, sf1, s5",
+      logoUrl: "/buildspace.jpg",
+      start: "technology software",
+      end: "2024 to updating 2026",
+    },
+    {
+      school: "JavaScript coding",
+      href: "https://ibo.org",
+      degree: "IB Diploma",
+      logoUrl: "/ib.png",
+      start: "2024 building wabot",
+      end: "update 2026",
+    },
+  ],
   
   projects: [
     {
