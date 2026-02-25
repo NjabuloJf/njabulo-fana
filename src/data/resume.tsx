@@ -13,8 +13,8 @@ import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
+  name: "ɳʝαႦυʅσ ʝႦ",
+  initials: "",
   url: "https://dillion.io",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
@@ -133,20 +133,20 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
+      school: "County is BW & ZW",
+      href: "https://local.com/Botswana",
       degree: "s3, s4, sf1, s5",
       logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      start: "technology software",
+      end: "2024 to updating 2026",
     },
     {
-      school: "International Baccalaureate",
+      school: "JavaScript coding",
       href: "https://ibo.org",
       degree: "IB Diploma",
       logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      start: "2024 building wabot",
+      end: "update 2026",
     },
   ],
   projects: [
