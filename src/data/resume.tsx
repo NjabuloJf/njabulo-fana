@@ -158,16 +158,16 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "whatsapp chats",
       ],
       links: [
         {
-          type: "=> qr code",
+          type: "qr code",
           href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
           {
-          type: "=> deploy bot",
+          type: "deploy bot",
           href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
