@@ -133,26 +133,18 @@ export const DATA = {
   ],
   education: [
     {
-      school: "County is BW & ZW",
+      school: "welcome 🙏💃",
       href: "https://local.com/Botswana",
-      degree: "s3, s4, sf1, s5",
+      degree: "only l say tanks for support my business",
       logoUrl: "/buildspace.jpg",
       start: "technology software",
       end: "2024 to updating 2026",
-    },
-    {
-      school: "JavaScript coding",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2024 building wabot",
-      end: "update 2026",
     },
   ],
   
   projects: [
     {
-      title: "Chat Collect",
+      title: "Njabulo-Jb",
       href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
@@ -178,7 +170,7 @@ export const DATA = {
       image: "chat-collect.png",
     },
     {
-      title: "Magic UI",
+      title: "Njabulo-Jb telegram bot",
       href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
@@ -209,7 +201,7 @@ export const DATA = {
       image: "ib.png",
     },
     {
-      title: "llm.report",
+      title: "update auto join group and channel",
       href: "https://llm.report",
       dates: "April 2023 - September 2023",
       active: true,
@@ -241,7 +233,7 @@ export const DATA = {
       image: "mitremedia.png",
     },
     {
-      title: "Automatic Chat",
+      title: "Message me or follow me",
       href: "https://automatic.chat",
       dates: "April 2023 - March 2024",
       active: true,
@@ -302,22 +294,7 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
       links: [],
     },
-    {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
-      ],
-    },
+
 
 
 
