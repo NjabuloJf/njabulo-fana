@@ -214,9 +214,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "chat-collect.png",
     },
     {
       title: "Magic UI",
@@ -247,7 +245,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "automatic-chat.png",
+      image: "ib.png",
     },
     {
       title: "llm.report",
@@ -279,7 +277,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "automatic-chat.png",
+      image: "mitremedia.png",
     },
     {
       title: "Automatic Chat",
@@ -306,9 +304,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+     image: "magic-ui.png", 
     },
   ],
   hackathons: [
