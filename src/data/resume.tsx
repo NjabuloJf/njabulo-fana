@@ -144,9 +144,9 @@ export const DATA = {
   
   projects: [
     {
-      title: "Njabulo-Jb",
+      title: "ɴᴊᴀʙᴜʟᴏ-ᴊʙ ʙᴏᴛ",
       href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "last update February 2026 version ^4.12.9¬",
       active: true,
       description:
         "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
@@ -170,9 +170,9 @@ export const DATA = {
       image: "chat-collect.png",
     },
     {
-      title: "Njabulo-Jb telegram bot",
+      title: "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ",
       href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      dates: "last update Jeanunary 2026 version ^2.0.0¬",
       active: true,
       description:
         "Designed, developed and sold animated UI components for developers.",
@@ -201,9 +201,9 @@ export const DATA = {
       image: "ib.png",
     },
     {
-      title: "update auto join group and channel",
+      title: "ᴍʏ ᴜᴘᴅᴀᴛᴇ sᴇᴠɪᴇʀ",
       href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      dates: "follow my channel and group chats got updated",
       active: true,
       description:
         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
@@ -233,9 +233,9 @@ export const DATA = {
       image: "mitremedia.png",
     },
     {
-      title: "Message me or follow me",
+      title: "ᴍᴇssᴀɢᴇ ᴏʀ ғᴏʟʟᴏᴡ ᴍᴇ",
       href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      dates: "my media am in tiktok & Facebook & Instagram & YouTube",
       active: true,
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
@@ -293,27 +293,7 @@ export const DATA = {
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
       links: [],
-    },
-
-
-
-
-
-    {
-      title: "Terrible Hacks V",
-      dates: "November 26th, 2016",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mock of Windows 11 with interesting notifications and functionality",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/terrible-hacks-v.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/TerribleHacks2016-Windows11",
-        },
-      ],
+    
     },
     {
       title: "Portal Hackathon",
