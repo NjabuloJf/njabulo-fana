@@ -262,9 +262,9 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Computer software",
+      dates: "November 23rd - 25th, 2024",
+      location: "Botswana' Gaborone",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image:
@@ -273,9 +273,9 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      title: "tack software",
+      dates: "September 14th - 16th, 203",
+      location: "Zimbabwe, bulawayo",
       description:
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
       image:
@@ -284,9 +284,9 @@ export const DATA = {
       links: [],
     },
     {
-      title: "FirstNet Public Safety Hackathon",
+      title: "Njabulo Jb",
       dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
+      location: "bulawayo, Gaborone",
       description:
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
@@ -296,9 +296,9 @@ export const DATA = {
     
     },
     {
-      title: "Portal Hackathon",
-      dates: "October 29, 2016",
-      location: "Kingston, Ontario",
+      title: "github clone",
+      dates: "October 29, 2025",
+      location: "Gaborone, Botswana",
       description:
         "Developed an internal widget for uploading assignments using Waterloo's portal app",
       image:
