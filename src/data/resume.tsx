@@ -230,7 +230,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "mitremedia.png",
+      image: "mitremediaa.png",
     },
     {
       title: "ᴍᴇssᴀɢᴇ ᴏʀ ғᴏʟʟᴏᴡ ᴍᴇ",
