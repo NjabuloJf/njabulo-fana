@@ -301,8 +301,7 @@ export const DATA = {
       location: "Gaborone, Botswana",
       description:
         "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
+      image: "chat-collect.png",
       links: [
         {
           title: "Source",
