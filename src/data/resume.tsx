@@ -145,7 +145,7 @@ export const DATA = {
   projects: [
     {
       title: "ɴᴊᴀʙᴜʟᴏ-ᴊʙ ʙᴏᴛ",
-      href: "https://chatcollect.com",
+      href: "https://github.com",
       dates: "last update February 2026 version ^4.12.9¬",
       active: true,
       description:
@@ -163,12 +163,12 @@ export const DATA = {
       links: [
         {
           type: "=> qr code",
-          href: "https://magicui.design",
+          href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
           {
           type: "=> deploy bot",
-          href: "https://chatcollect.com",
+          href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -176,7 +176,7 @@ export const DATA = {
     },
     {
       title: "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ",
-      href: "https://magicui.design",
+      href: "https://github.com",
       dates: "last update Jeanunary 2026 version ^2.0.0¬",
       active: true,
       description:
@@ -193,12 +193,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "=> tbot",
+          type: "tbot",
           href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "=> channel",
+          type: "channel",
           href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
@@ -207,7 +207,7 @@ export const DATA = {
     },
     {
       title: "ᴍʏ ᴜᴘᴅᴀᴛᴇ sᴇᴠɪᴇʀ",
-      href: "https://llm.report",
+      href: "https://github.com",
       dates: "follow my channel and group chats got updated",
       active: true,
       description:
@@ -225,12 +225,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "=> wgroup",
+          type: "wgroup",
           href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "=> channel",
+          type: "channel",
           href: "https://github.com",
           icon: <Icons.github className="size-3" />,
         },
@@ -239,7 +239,7 @@ export const DATA = {
     },
     {
       title: "ᴍᴇssᴀɢᴇ ᴏʀ ғᴏʟʟᴏᴡ ᴍᴇ",
-      href: "https://automatic.chat",
+      href: "https://github.com",
       dates: "my media am in tiktok & Facebook & Instagram & YouTube",
       active: true,
       description:
@@ -257,22 +257,22 @@ export const DATA = {
       ],
       links: [
         {
-          type: "=> facebook",
+          type: "facebook",
           href: "https://magicui.design",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "=> instagram",
+          type: "instagram",
           href: "https://magicui.design",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "=> tiktok",
+          type: "tiktok",
           href: "https://magicui.design",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "=> whatsapp",
+          type: "whatsapp",
           href: "https://automatic.chat",
           icon: <Icons.globe className="size-3" />,
         },
