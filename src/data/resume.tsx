@@ -267,19 +267,17 @@ export const DATA = {
       location: "Botswana' Gaborone",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+      image: "computer-software.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
     {
-      title: "tack software",
+      title: "hack software",
       dates: "September 14th - 16th, 203",
       location: "Zimbabwe, bulawayo",
       description:
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+      image: "hack-software.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -290,8 +288,7 @@ export const DATA = {
       description:
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+      image: "me.png",
       links: [],
     
     },
@@ -301,7 +298,7 @@ export const DATA = {
       location: "Gaborone, Botswana",
       description:
         "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image: "chat-collect.png",
+      image: "github-cline.png",
       links: [
         {
           title: "Source",
