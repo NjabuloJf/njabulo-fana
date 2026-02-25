@@ -84,7 +84,7 @@ export const DATA = {
   work: [
     {
       company: "Owner name",
-      href: "https://atomic.finance",
+      href: "https://github.com",
       badges: [],
       location: "Botswana",
       title: "My name is njabulo",
@@ -97,7 +97,7 @@ export const DATA = {
     {
       company: "school high",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://github.com",
       location: "Botswana",
       title: "Software Engineer school",
       logoUrl: "/shopify.png",
@@ -108,7 +108,7 @@ export const DATA = {
     },
     {
       company: "My work",
-      href: "https://nvidia.com/",
+      href: "https://github.com",
       badges: [],
       location: "Santa Clara, CA",
       title: "Software Engineer",
@@ -120,7 +120,7 @@ export const DATA = {
     },
     {
       company: "My country",
-      href: "https://mitremedia.com/",
+      href: "https://github.com",
       badges: [],
       location: "Toronto, ON",
       title: "Botswana🇧🇼 and Zimbabwe🇿🇼",
