@@ -149,7 +149,7 @@ export const DATA = {
       dates: "last update February 2026 version ^4.12.9¬",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Njabulo Jb' WhatsApp bot multi-device repository (NjabuloJ/Njabulo-Jb) has gained over 80 stars, showcasing its popularity among developers. This bot enables seamless WhatsApp interactions across multiple devices.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -175,7 +175,7 @@ export const DATA = {
       dates: "last update Jeanunary 2026 version ^2.0.0¬",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Get the Njabulo Jb Telegram bot - a powerful multi-device solution with over 80+ stars on GitHub.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -206,7 +206,7 @@ export const DATA = {
       dates: "follow my channel and group chats got updated",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Thanks for your support!  Join my channels and groups to get the latest updates on Njabulo JB. Stay ahead with new features and more!.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -238,7 +238,7 @@ export const DATA = {
       dates: "my media am in tiktok & Facebook & Instagram & YouTube",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Hey, don't miss out! Follow me on Facebook, TikTok, YouTube, and Instagram for the latest updates and behind-the-scenes content!  Stay connected and let's vibe! .",
       technologies: [
         "Next.js",
         "Typescript",
