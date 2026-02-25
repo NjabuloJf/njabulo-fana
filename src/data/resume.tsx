@@ -178,14 +178,10 @@ export const DATA = {
       description:
         "Get the Njabulo Jb Telegram bot - a powerful multi-device solution with over 80+ stars on GitHub.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "telegram bot",
+        "online",
+        "fana UI",
+        "njabulo UI",
       ],
       links: [
         {
@@ -209,15 +205,10 @@ export const DATA = {
       description:
         "Thanks for your support!  Join my channels and groups to get the latest updates on Njabulo JB. Stay ahead with new features and more!.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "njabulo.js",
+        "channel join",
+        "group join",
+        "fana UI",
       ],
       links: [
         {
@@ -241,15 +232,11 @@ export const DATA = {
       description:
         "Hey, don't miss out! Follow me on Facebook, TikTok, YouTube, and Instagram for the latest updates and behind-the-scenes content!  Stay connected and let's vibe! .",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "njabulo.js",
+        "tiktok",
+        "facebook",
+        "Instagram",
+        "YouTube",
       ],
       links: [
         {
