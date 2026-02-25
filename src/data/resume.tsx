@@ -162,7 +162,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "=> qr code",
+          href: "https://magicui.design",
+          icon: <Icons.globe className="size-3" />,
+        },
+          {
+          type: "=> deploy bot",
           href: "https://chatcollect.com",
           icon: <Icons.globe className="size-3" />,
         },
@@ -188,14 +193,14 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
+          type: "=> tbot",
+          href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
+          type: "=> channel",
+          href: "https://github.com",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "ib.png",
@@ -220,13 +225,13 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://llm.report",
+          type: "=> wgroup",
+          href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          type: "=> channel",
+          href: "https://github.com",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -252,7 +257,22 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "=> facebook",
+          href: "https://magicui.design",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "=> instagram",
+          href: "https://magicui.design",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "=> tiktok",
+          href: "https://magicui.design",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "=> whatsapp",
           href: "https://automatic.chat",
           icon: <Icons.globe className="size-3" />,
         },
@@ -303,7 +323,7 @@ export const DATA = {
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/UWPortalSDK/crowmark",
+          href: "https://github.com/",
         },
       ],
     },
