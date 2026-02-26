@@ -15,7 +15,7 @@ import { Csharp } from "@/components/ui/svgs/csharp";
 export const DATA = {
   name: "ɳʝαႦυʅσ ʝႦ",
   initials: "",
-  url: "https://dillion.io",
+  url: "/repository.html",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -46,7 +46,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com",
+        url: "/repository.html",
         icon: Icons.github,
         navbar: true,
       },
@@ -84,7 +84,7 @@ export const DATA = {
   work: [
     {
       company: "Owner name",
-      href: "https://github.com",
+      href: "/repository.html",
       badges: [],
       location: "Botswana",
       title: "My name is njabulo",
@@ -97,7 +97,7 @@ export const DATA = {
     {
       company: "school high",
       badges: [],
-      href: "https://github.com",
+      href: "/repository.html",
       location: "Botswana",
       title: "Software Engineer school",
       logoUrl: "/shopify.png",
@@ -108,7 +108,7 @@ export const DATA = {
     },
     {
       company: "My work",
-      href: "https://github.com",
+      href: "/repository.html",
       badges: [],
       location: "Santa Clara, CA",
       title: "Software Engineer",
@@ -120,7 +120,7 @@ export const DATA = {
     },
     {
       company: "My country",
-      href: "https://github.com",
+      href: "/repository.html",
       badges: [],
       location: "Toronto, ON",
       title: "Botswana🇧🇼 and Zimbabwe🇿🇼",
@@ -145,7 +145,7 @@ export const DATA = {
   projects: [
     {
       title: "ɴᴊᴀʙᴜʟᴏ-ᴊʙ ʙᴏᴛ",
-      href: "https://github.com",
+      href: "/repository.html",
       dates: "last update February 2026 version ^4.12.9¬",
       active: true,
       description:
@@ -172,7 +172,7 @@ export const DATA = {
     },
     {
       title: "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ",
-      href: "https://github.com",
+      href: "/repository.html",
       dates: "last update Jeanunary 2026 version ^2.0.0¬",
       active: true,
       description:
@@ -194,7 +194,7 @@ export const DATA = {
     },
     {
       title: "ᴍʏ ᴜᴘᴅᴀᴛᴇ sᴇᴠɪᴇʀ",
-      href: "https://github.com",
+      href: "/repository.html",
       dates: "follow my channel and group chats got updated",
       active: true,
       description:
@@ -216,7 +216,7 @@ export const DATA = {
     },
     {
       title: "ᴍᴇssᴀɢᴇ ᴏʀ ғᴏʟʟᴏᴡ ᴍᴇ",
-      href: "https://github.com",
+      href: "/repository.html",
       dates: "my media am in tiktok & Facebook & Instagram & YouTube",
       active: true,
       description:
@@ -286,7 +286,7 @@ export const DATA = {
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/",
+          href: "/repository.html",
         },
       ],
     },
