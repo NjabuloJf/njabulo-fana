@@ -246,7 +246,7 @@ export const DATA = {
         },
         {
           type: "me on social media",
-          href: "https://magicui.design",
+          href: "/message.html",
           icon: <Icons.globe className="size-3" />,
         },
       ],
