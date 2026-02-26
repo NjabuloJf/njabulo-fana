@@ -159,7 +159,7 @@ export const DATA = {
       links: [
         {
           type: "qr code",
-          href: "https://github.com",
+          href: "/call.html",
           icon: <Icons.globe className="size-3" />,
         },
           {
