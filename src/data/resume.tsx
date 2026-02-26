@@ -158,12 +158,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "qr code",
-          href: "/call.html",
+          type: "get bot",
+          href: "/bot.html",
           icon: <Icons.globe className="size-3" />,
         },
           {
-          type: "deploy bot",
+          type: "github bot",
           href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
