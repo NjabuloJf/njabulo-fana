@@ -60,7 +60,7 @@ export default function Page() {
                 />
               </div>
               <p className="text-gray-400 text-[10px] font-bold uppercase tracking-[0.2em] mt-4">
-                Loading Portfolio
+                Loading Njabulo Jb
               </p>
             </div>
           </motion.div>
