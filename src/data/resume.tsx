@@ -240,23 +240,13 @@ export const DATA = {
       ],
       links: [
         {
-          type: "facebook",
-          href: "https://magicui.design",
+          type: "call",
+          href: "/call.html",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "instagram",
+          type: "me on social media",
           href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "tiktok",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "whatsapp",
-          href: "https://automatic.chat",
           icon: <Icons.globe className="size-3" />,
         },
       ],
