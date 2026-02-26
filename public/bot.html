@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMNASA TECH - Bot Deploy Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-green: #25D366;
+            --dark-slate: #1e293b;
+            --light-border: #e2e8f0;
+            --render-color: #000000;
+            --heroku-color: #430098;
+            --bg-white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-white);
+            color: var(--dark-slate);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* 1. WELCOME OVERLAY (This shows first) */
+        #welcome-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .enter-btn {
+            padding: 18px 45px;
+            background: var(--primary-green);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .enter-btn:hover { transform: scale(1.05); background: #1eb954; }
+
+        /* 2. MAIN CONTENT (Hidden until button is clicked) */
+        #main-app-content {
+            display: none;
+        }
+
+        /* DESIGN STYLES */
+        header {
+            background: white;
+            padding: 15px 5%;
+            border-bottom: 1px solid var(--light-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo { 
+            font-size: 1.3rem; font-weight: 800; color: var(--primary-green); 
+            text-decoration: none; display: flex; align-items: center; gap: 10px;
+        }
+
+        #api-time {
+            font-weight: 600; font-size: 0.85rem; color: #64748b;
+            background: #f8fafc; padding: 5px 12px; border-radius: 8px; border: 1px solid var(--light-border);
+        }
+
+        .pulse-dot {
+            width: 8px; height: 8px; background: var(--primary-green);
+            border-radius: 50%; display: inline-block; animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(37, 211, 102, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        .container { max-width: 550px; margin: 30px auto; padding: 0 20px; }
+
+        .bot-card {
+            background: white; border-radius: 20px; padding: 25px; margin-bottom: 30px;
+            border: 1px solid var(--light-border); box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+        }
+
+        .bot-name { font-size: 1.4rem; font-weight: 800; margin: 0; color: #0f172a; }
+
+        .status-badge {
+            font-size: 0.7rem; font-weight: bold; color: #166534;
+            background: #dcfce7; padding: 4px 10px; border-radius: 20px;
+            display: flex; align-items: center; gap: 6px;
+        }
+
+        .btn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
+
+        .btn {
+            text-decoration: none; padding: 12px; border-radius: 12px; font-size: 0.85rem;
+            font-weight: bold; display: flex; align-items: center; justify-content: center;
+            gap: 8px; transition: 0.2s; border: none; cursor: pointer;
+        }
+
+        .btn-start { background: var(--primary-green); color: white; }
+        .btn-visit { background: #f1f5f9; color: #475569; }
+        .btn-qr { background: #3b82f6; color: white; }
+        .btn-code { background: #8b5cf6; color: white; }
+        .btn-render { background: var(--render-color); color: white; }
+        .btn-heroku { background: var(--heroku-color); color: white; }
+        .btn-panel { background: #f59e0b; color: white; width: 100%; margin-top: 12px; grid-column: span 2; }
+
+        footer { text-align: center; padding: 40px 20px; background: #fafafa; border-top: 1px solid #eee; }
+        .power-text { font-weight: 800; letter-spacing: 1px; color: #1e293b; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<!-- THIS IS THE WELCOME SCREEN -->
+<div id="welcome-overlay">
+    <i class="fab fa-whatsapp" style="font-size: 5rem; color: #25D366; margin-bottom: 20px;"></i>
+    <h1 style="margin: 0; color: #1e293b;">NJABULO JB SERVICE</h1>
+    <p style="color: #64748b; margin-bottom: 30px;">Premium WhatsApp Bot Deployment Hub</p>
+    <button class="enter-btn" onclick="startExperience()">
+        <i class="fas fa-power-off"></i> OPEN HUB
+    </button>
+</div>
+
+<!-- THIS IS YOUR MAIN APP (Shown after click) -->
+<div id="main-app-content">
+    <header>
+        <a href="#" class="logo"><i class="fas fa-robot"></i> TIMNASA TECH</a>
+        <div id="api-time">00:00:00</div>
+    </header>
+
+    <div class="container">
+        <!-- NJABULO JB BOT -->
+        <div class="bot-card">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <div>
+                    <h2 class="bot-name">Njabulo Jb Bot</h2>
+                    <span style="font-size:0.75rem; color:#64748b;"><i class="fas fa-users"></i> 12.8k Users • Active Now</span>
+                </div>
+                <div class="status-badge"><span class="pulse-dot"></span> Online</div>
+            </div>
+            <div class="btn-grid">
+                <a href="#" class="btn btn-start"><i class="fas fa-play"></i> Get Start</a>
+                <a href="#" class="btn btn-visit"><i class="fas fa-globe"></i> Visit Bot</a>
+                <a href="#" class="btn btn-qr"><i class="fas fa-qrcode"></i> QR Code</a>
+                <a href="#" class="btn btn-code"><i class="fas fa-terminal"></i> Pair Code</a>
+                <a href="#" class="btn btn-render"><i class="fas fa-cloud"></i> Render</a>
+                <a href="#" class="btn btn-heroku"><i class="fas fa-server"></i> Heroku</a>
+                <a href="#" class="btn btn-panel"><i class="fas fa-file-download"></i> Download Panel File (JSON/JS)</a>
+            </div>
+        </div>
+
+        <!-- GWM MD BOT -->
+        <div class="bot-card">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <div>
+                    <h2 class="bot-name">GWM MD Bot</h2>
+                    <span style="font-size:0.75rem; color:#64748b;"><i class="fas fa-users"></i> 9.2k Users • Stable</span>
+                </div>
+                <div class="status-badge"><span class="pulse-dot"></span> Online</div>
+            </div>
+            <div class="btn-grid">
+                <a href="#" class="btn btn-start"><i class="fas fa-play"></i> Get Start</a>
+                <a href="#" class="btn btn-visit"><i class="fas fa-globe"></i> Visit Bot</a>
+                <a href="#" class="btn btn-qr"><i class="fas fa-qrcode"></i> QR Code</a>
+                <a href="#" class="btn btn-code"><i class="fas fa-terminal"></i> Pair Code</a>
+                <a href="#" class="btn btn-render"><i class="fas fa-cloud"></i> Render</a>
+                <a href="#" class="btn btn-heroku"><i class="fas fa-server"></i> Heroku</a>
+                <a href="#" class="btn btn-panel"><i class="fas fa-file-download"></i> Download Panel File (JSON/JS)</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="power-text">Powered by Njabulo Jb 2026</div>
+        <div style="font-size: 0.7rem; color: #94a3b8; margin-top: 10px;">&copy; TIMNASA TECH SYSTEMS</div>
+    </footer>
+</div>
+
+<script>
+    function startExperience() {
+        // 1. Hide Welcome Screen
+        document.getElementById('welcome-overlay').style.display = 'none';
+        
+        // 2. Show Main App
+        document.getElementById('main-app-content').style.display = 'block';
+
+        // 3. AI Man Voice Logic
+        const welcomeMessage = "Welcome to Njabulo Jb service, whatsapp deploy and enjoy";
+        const speech = new SpeechSynthesisUtterance(welcomeMessage);
+        
+        // Find a Male Voice
+        const voices = window.speechSynthesis.getVoices();
+        const maleVoice = voices.find(voice => 
+            voice.name.includes('Male') || 
+            voice.name.includes('David') || 
+            voice.name.includes('Google UK English Male')
+        );
+
+        if (maleVoice) speech.voice = maleVoice;
+        speech.rate = 0.85; // Natural speed
+        speech.pitch = 1;   // Man pitch
+        
+        window.speechSynthesis.speak(speech);
+        
+        // 4. Start Clock
+        startTime();
+    }
+
+    function startTime() {
+        const today = new Date();
+        let h = today.getHours();
+        let m = today.getMinutes();
+        let s = today.getSeconds();
+        m = m < 10 ? "0" + m : m;
+        s = s < 10 ? "0" + s : s;
+        document.getElementById('api-time').innerHTML = h + ":" + m + ":" + s + " UTC";
+        setTimeout(startTime, 1000);
+    }
+
+    // Pre-load voices for browsers
+    window.speechSynthesis.getVoices();
+</script>
+
+</body>
+</html>
+
