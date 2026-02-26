@@ -176,7 +176,7 @@ export const DATA = {
       dates: "last update Jeanunary 2026 version ^2.0.0¬",
       active: true,
       description:
-        "Get the Njabulo Jb Telegram bot - a powerful multi-device solution with over 80+ stars on GitHub.",
+        "Get the Njabulo Jb Telegram bot or clone is free .- a powerful multi-device solution with over 80+ stars on GitHub.",
       technologies: [
         "telegram bot",
         "online",
@@ -185,13 +185,8 @@ export const DATA = {
       ],
       links: [
         {
-          type: "tbot",
-          href: "https://github.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "channel",
-          href: "https://github.com",
+          type: "Get Telegram bot",
+          href: "/telegrambot.html",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -240,7 +235,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "me on social media",
+          type: "Me on social media",
           href: "/message.html",
           icon: <Icons.globe className="size-3" />,
         },
