@@ -158,12 +158,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "get bot",
+          type: "Get bot",
           href: "/bot.html",
           icon: <Icons.globe className="size-3" />,
         },
           {
-          type: "github bot",
+          type: "Github bot",
           href: "https://github.com",
           icon: <Icons.globe className="size-3" />,
         },
@@ -212,14 +212,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "wgroup",
-          href: "https://github.com",
+          type: "Group & Channel",
+          href: "/support.html",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "channel",
-          href: "https://github.com",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "mitremediaa.png",
@@ -240,7 +235,7 @@ export const DATA = {
       ],
       links: [
         {
-          type: "call",
+          type: "Call",
           href: "/call.html",
           icon: <Icons.globe className="size-3" />,
         },
