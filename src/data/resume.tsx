@@ -15,7 +15,7 @@ import { Csharp } from "@/components/ui/svgs/csharp";
 export const DATA = {
   name: "ɳʝαႦυʅσ ʝႦ",
   initials: "",
-  url: "njabulo.com",
+  url: "https://github.com",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -46,7 +46,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "njabulo.com",
+        url: "https://github.com",
         icon: Icons.github,
         navbar: true,
       },
