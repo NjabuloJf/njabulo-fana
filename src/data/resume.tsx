@@ -53,21 +53,21 @@ export const DATA = {
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://github.com",
+        url: "https://www.facebook.com/profile.php?id=100094314013209",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://github.com",
+        url: "https://www.instagram.com/njabulojb871?igsh=MTJ4cXZydW4yNHhpeg==",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://github.com",
+        url: "http://www.youtube.com/@Njabulo-JBOffice",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -158,13 +158,13 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Get bot",
+          type: "Get Bot",
           href: "/bot.html",
           icon: <Icons.globe className="size-3" />,
         },
           {
-          type: "Github bot",
-          href: "https://github.com",
+          type: "Repository",
+          href: "/repository.html",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -185,7 +185,7 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Get Telegram bot",
+          type: "Get Telegram Bot",
           href: "/telegrambot.html",
           icon: <Icons.globe className="size-3" />,
         },
@@ -230,12 +230,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Call",
+          type: "Call Me",
           href: "/call.html",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Me on social media",
+          type: "Me on Social Media",
           href: "/message.html",
           icon: <Icons.globe className="size-3" />,
         },
